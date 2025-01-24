@@ -1,0 +1,18 @@
+{
+    "tasks": {
+        "checker": "check if the email follows the proper etiquette",
+        "crafting": "generate an email that follows the proper etiquette"
+    },
+    "expected_outputs": {
+        "checker": "yes or no. If no, include points of improvements.",
+        "crafting": "properly formatted email"
+    },
+    "prompts": {
+        "general": {"rules": ["professional tone", "concise", "respectful", "appropriate greetings"]},
+        "WMT-appropriate": {
+            "rules": ["proper email subject", "appropriate salutations", "proper language", "specifies reason and context for emailing", "short and concise", "respectful"],
+            "salutations": ["Hi", "Hello Sir", "Good day"],
+            "names": ["Wilson", "Miguel", "Gino"]
+        }
+    }
+}
